@@ -1,3 +1,12 @@
+export type Polaroid = {
+  img: string;
+  top: number;
+  left: number;
+  index: number;
+  rotate: number;
+  caption: string;
+};
+
 export const Polaroids: Polaroid[] = [
   // sus (aproape de centru)
   { img: '/1.png',  top: 6,  left: 26, index: 1,  rotate: -10, caption: 'Noi' },
@@ -29,3 +38,4 @@ export const Polaroids: Polaroid[] = [
   // inimă în centru-spre stânga (dacă ai heart.png)
   { img: '/heart.png', top: 34, left: 36, index: 20, rotate: 0, caption: '' },
 ];
+
